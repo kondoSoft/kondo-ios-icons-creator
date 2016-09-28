@@ -1,0 +1,27 @@
+{
+  "name": "kondo-ios-icon-creator",
+  "version": "1.0.0",
+  "description": "creator of icons for ios",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kondoSoft/kondo-ios-icons-creator.git"
+  },
+  "keywords": [
+    "ios",
+    "icons",
+    "kondo"
+  ],
+  "author": "@wwallass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kondoSoft/kondo-ios-icons-creator/issues"
+  },
+  "homepage": "https://github.com/kondoSoft/kondo-ios-icons-creator#readme",
+  "dependencies": {
+    "jimp": "^0.2.27"
+  }
+}
