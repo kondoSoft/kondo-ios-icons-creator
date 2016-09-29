@@ -1,6 +1,6 @@
-module exports = {
-  'ios-image':{
-    'folder-name': 'AppIcon.appiconset',
+module.exports = {
+  'ios_image':{
+    'folder_name': 'AppIcon.appiconset',
     'images':{
       'Icon-App-20x20@1x': 20,
       'Icon-App-20x20@2x': 40,
@@ -20,7 +20,7 @@ module exports = {
       'Icon-App-83.5x83.5@2x': 157,
     }
   },
-  'launch-image':{
+  'launch_image':{
     'folder-name': 'AppIcon.appiconset',
     'images':{
       'Default': [768,1004],
