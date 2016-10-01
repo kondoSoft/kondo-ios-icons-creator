@@ -21,7 +21,7 @@ module.exports = {
     }
   },
   'launch_image':{
-    'folder-name': 'AppIcon.appiconset',
+    'folder_name': 'launchImages',
     'images':{
       'Default': [768,1004],
       'Default~ipad': [768,1004]
