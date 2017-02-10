@@ -21,7 +21,7 @@ module.exports = {
       'Icon-App-72x72@2x': 144,
       'Icon-App-50x50@1x': 50,
       'Icon-App-50x50@2x': 100,
-      'Icon-App-83.5x83.5@2x': 157,
+      'Icon-App-83.5x83.5@2x': 167,
     }
   },
   'launch_image':{
@@ -30,6 +30,25 @@ module.exports = {
       'Default': [768,1004],
       'Default~ipad': [768,1004]
     },
+  },
+  'android_image':{
+    'folder_name': 'Icons.andriod',
+    'images':{
+      'Icon-ldpi':36,
+      'Icon-mdpi':48,
+      'Icon-hdpi':72,
+      'Icon-xhdpi':96,
+      'Icon-xxhdpi':144
+    }
   }
 
 };
+// icon-ldpi - 36
+// mdpi 48
+// hdpi 72
+// xhdpi 96
+/*
+
+
+
+*/

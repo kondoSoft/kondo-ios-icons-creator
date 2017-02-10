@@ -20,19 +20,19 @@ if(ext == '.png'){
     })
   })
   //Create folder and Launch Image
-  fs.mkdir(__dirname + `/${Sizes.launch_image.folder_name}`, (err) => {
-    if(err)throw err;
-    Object.keys(Sizes.launch_image.images).map( (key) => {
-      var width = Sizes.launch_image.images[key][0]
-      var height = Sizes.launch_image.images[key][1]
-      Jimp.read(image, (err,img) => {
-        if(err) throw err;
-        img.resize(width,height)
-        img.quality(100)
-        img.write(`./${Sizes.launch_image.folder_name}` + `/${key}.png`)
-      })
-    })
-  })
+  // fs.mkdir(__dirname + `/${Sizes.launch_image.folder_name}`, (err) => {
+  //   if(err)throw err;
+  //   Object.keys(Sizes.launch_image.images).map( (key) => {
+  //     var width = Sizes.launch_image.images[key][0]
+  //     var height = Sizes.launch_image.images[key][1]
+  //     Jimp.read(image, (err,img) => {
+  //       if(err) throw err;
+  //       img.resize(width,height)
+  //       img.quality(100)
+  //       img.write(`./${Sizes.launch_image.folder_name}` + `/${key}.png`)
+  //     })
+  //   })
+  // })
 }else {
   console.log('Solo admite archivos PNG');
 }
