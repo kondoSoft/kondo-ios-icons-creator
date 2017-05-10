@@ -15,8 +15,8 @@ module.exports = {
       'Icon-App-60x60@1x': 60,
       'Icon-App-60x60@2x': 120,
       'Icon-App-76x76@1x': 76,
-      'Icon-App-60x60@2x': 152,
-      'Icon-App-60x60@3x': 228,
+      'Icon-App-60x60@2x': 120,
+      'Icon-App-60x60@3x': 180,
       'Icon-App-83.5x83.5@2x': 157,
     }
   },
