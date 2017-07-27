@@ -29,8 +29,8 @@ module.exports = {
   'launch_image':{
     'folder_name': 'launchImages',
     'images':{
-      'Default': [768,1004],
-      'Default~ipad': [768,1004]
+      'Default': [768,1024],
+      'Default~ipad': [768,1024]
     },
   }
 
