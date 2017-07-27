@@ -29,9 +29,28 @@ module.exports = {
   'launch_image':{
     'folder_name': 'launchImages',
     'images':{
-      'Default': [768,1004],
-      'Default~ipad': [768,1004]
+      'Default': [768,1024],
+      'Default~ipad': [768,1024]
     },
+  },
+  'android_image':{
+    'folder_name': 'Icons.andriod',
+    'images':{
+      'Icon-ldpi':36,
+      'Icon-mdpi':48,
+      'Icon-hdpi':72,
+      'Icon-xhdpi':96,
+      'Icon-xxhdpi':144
+    }
   }
 
 };
+// icon-ldpi - 36
+// mdpi 48
+// hdpi 72
+// xhdpi 96
+/*
+
+
+
+*/
